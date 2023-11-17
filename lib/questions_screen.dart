@@ -22,7 +22,6 @@ var currentQuestionIndex = 0;
       setState(() {
         currentQuestionIndex++;
       });
-      print('CurrentIndex : $currentQuestionIndex');
     }
   @override
   Widget build(BuildContext context) {
